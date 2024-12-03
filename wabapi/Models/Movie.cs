@@ -6,7 +6,7 @@ public record Movie
     public string? Title { get; set; }
     public List<string>? Actors { get; set; }
     public decimal? Revenue { get; set; }
-    public DateOnly? Year { get; set; }
+    public DateOnly? PrimeDate { get; set; }
     
     
 }
